@@ -8,7 +8,7 @@ module.exports = {
     static: {
       directory: path.resolve(__dirname, 'client/public'),
     },
-    port: 3000,
+    port: 80,
     historyApiFallback: true,
     // allows to open the browser automatically when the project is run
     open: true,
