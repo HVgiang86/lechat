@@ -50,7 +50,7 @@ function App() {
     const abortCtrl = new AbortController();
     // set default base url
     axios.defaults.baseURL = config.isDev
-      ? 'https://8ae3-118-71-137-84.ngrok-free.app/api'
+      ? 'http://localhost:8080/api'
       : '/api';
     handleGetMaster(abortCtrl.signal);
 
