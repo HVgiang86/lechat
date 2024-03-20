@@ -50,7 +50,7 @@ function App() {
     const abortCtrl = new AbortController();
     // set default base url
     axios.defaults.baseURL = config.isDev
-      ? 'http://app-bfebb149-d160-415d-938b-26f9d2b10e55.cleverapps.io/api'
+      ? 'https://lechatbe1.cleverapps.io/api'
       : '/api';
     handleGetMaster(abortCtrl.signal);
 
